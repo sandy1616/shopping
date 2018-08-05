@@ -15,6 +15,8 @@ public class RunningShoesAdd extends Base_Test {
 	public void TC1() {
 		
 		PumaHome p1 = new PumaHome(driver);
+		p1.menmouseaction();
+		p1.runningshoesclick();
 	
 		
 		

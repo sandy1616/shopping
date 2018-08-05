@@ -23,13 +23,13 @@ public class PumaHome extends Base_Page {
 	
 	
 	
-	public void mouseaction(WebDriver driver , WebElement ele) {
+	public void menmouseaction() {
 		
-		                             mouseover(driver,ele);
+		       mouseover(driver,men);
 			 }
 	
 	
-	public void runningshoesclick(WebElement ele) {
+	public void runningshoesclick() {
 		
 		clickaction(runningshoes);
 	}
